@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wrapper {
+
+	padding: 0px;
+	border-width: 0px;
+}
+
+.SocialMediaIcon{
+	height: 25px;
+  width: 25px;
+}
+#HeaderMenu {
+    display: flex;
+	align-items: right;
+	justify-content: flex-end;
+	padding: 0px;
+border-width: 0px;
+	
+}
+
+
+#horizontal-list {
+	
+	list-style: none;
+	display: inline;
+	align-items: right;
+	justify-content: flex-end;
+
+	}
+	ul#horizontal-list li {
+		display: inline;
+		align-items: flex-end;
+	
+		
+	}
+#WrapperTittle{
+	padding: 0px;
+	width: 100%;	
+}
+
+#TableTittle{
+
+	background-image:url("Assetts/background-sample.jpg");
+	width: 1000px;
+	background-size: 1000px 553px;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+#divsearchbar{
+	margin-left: 50%;
+}
+
+#tdright{
+	width: inherit;
+	
+}
+
+.flexcontainer{
+	display: flex;
+	height: 400px;
+	width: 100%;
+	flex-direction: column;
+	background-image: url("Assetts/background-sample.jpg");
+	background-size:cover;
+	align-self: center;
+	flex-wrap: wrap;
+	
+}
+.flexcontainer div{
+	height: 400px;
+	width: 48%;
+	border-bottom-width: 0px;
+	
+}
+
+#left{
+	display: flex;
+  	flex-flow: row nowrap;
+  	align-items: center;
+	
+	
+	
+}
+
+#logo{
+	
+	margin-left: 10%;
+	
+
+
+}
+#right{
+	display: flex;
+  	flex-flow: row nowrap;
+  	align-items: center;
+	
+}
+#search{
+	margin-left: 60%;
+	margin-bottom: 30%;
+		
+}
+
+#searchbutton{
+	margin-left: 0%;
+	margin-bottom: 30%;
+	
+}
+
+.navigation{
+	display: flex;
+	height: 25px;
+	width: 100%;
+	flex-direction: column;
+	background-color:#FDF3E3;
+	align-self: center;
+	flex-wrap: wrap;
+}
+
+#ul{
+list-style-type: none;
+	height: 29px;	
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+font-family: Arial;
+	font-size: 15px;
+	text-align: center;
+	
+}
+
+a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.flexcontainer2{
+	display: flex;
+	height: 400px;
+	width: 100%;
+	background-color: lightgrey;
+	flex-wrap: wrap;
+	
+	
+}
+.flexcontainer2 div{
+	height: 25%;
+	width: 25%;
+	background-color: aquamarine;
+	border-color: #000000;
+	border-bottom-width: 0px;
+}
+	
